@@ -1,4 +1,4 @@
-import AppBar from "~/src/comp/appBar";
+// import AppBar from "~/src/comp/appBar";
 import BookList from "~/src/comp/bookList";
 import AppConst from "~/src/lib/appConst";
 import Box from '@material-ui/core/Box';
@@ -56,7 +56,7 @@ export default function SearchResult(props) {
 
   return (
     <>
-      <AppBar/>
+      {/* <AppBar/> */}
       <Box mx={10} mt={4}>
         <BookList
           bookList={bookList}
