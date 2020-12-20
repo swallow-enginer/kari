@@ -1,4 +1,4 @@
-// import AppBar from "~/src/comp/appBar";
+import AppBar from "~/src/comp/appBar";
 import { useRouter } from 'next/router';
 import AppConst from "~/src/lib/appConst";
 import Typography from '@material-ui/core/Typography';
@@ -59,7 +59,7 @@ const index = function Index() {
 
   return (
     <>
-      {/* <AppBar /> */}
+      <AppBar />
       <Box mx={10} mt={4}>
         <Box display="flex" alignItems="center">
           <h2>完読状況</h2>
