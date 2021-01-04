@@ -1,9 +1,11 @@
-
+import Link from 'next/link'
 const index = function Index() {
 
   return (
       <>
-          <button href="/api/login">ログイン</button>
+        <Link href="/api/login">
+          <button>ログイン</button>
+        </Link>
       </>
   )
 }
